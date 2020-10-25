@@ -88,10 +88,7 @@ function CEPIGP_StaticPopupImport()
                             end
 
                             CEPGP_UpdateOverrideScrollBar()
-                        else
-                           print("[" .. id .. "] link: is ", link)
                         end
-
                     end)
                 --    print("Successfully imported " .. count .. " overridden items")
                 --else
