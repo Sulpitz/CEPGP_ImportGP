@@ -82,7 +82,7 @@ function CEPIGP_StaticPopupImport()
                             
                             if CEPGP_itemExists(id) then
                                 CEPGP.Overrides[link] = gp
-                                CEPGP_print(math.floor(i/limit*100) .. "%  " ..  i .. " " .. limit .. "  GP value for " .. link .. " |c006969FFhas been overriden to " .. gp)
+                                CEPGP_print(math.floor(i/limit*100) .. "%  " ..  i .. "/" .. limit .. "  GP value for " .. link .. " |c006969FFhas been overriden to " .. gp)
                             else
                                 print("ERROR: Item " .. id .. " does not exist")
                             end
