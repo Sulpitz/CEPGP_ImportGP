@@ -1,0 +1,6 @@
+## Interface:11305
+## Title: Classic EPGP - ImportGP
+## Author: Earnil
+## Dependencies: CEPGP
+
+Core.lua
