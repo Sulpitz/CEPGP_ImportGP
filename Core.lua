@@ -1,6 +1,6 @@
-SLASH_CEPGPBR1 = "/cepgpigp"
-SLASH_CEPGPBR2 = "/cepigp"
-function SlashCmdList.CEPGPBR(msg, editbox) 
+SLASH_CEPGPIGP1 = "/cepgpigp"
+SLASH_CEPGPIGP2 = "/cepigp"
+function SlashCmdList.CEPGPIGP(msg, editbox) 
     if msg == "" then
         CEPIGP_StaticPopupImport()
     elseif msg == "t" then 
